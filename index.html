@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O Senhor dos Pastéis</title>    
+    <link rel="stylesheet" href="./estilos/principal.css">
 </head>
 <body>
     <header>
@@ -12,7 +13,7 @@
             O Senhor dos Pastéis
         </h1>
         <nav>
-            <a href="/">Home</a>
+            <a href="#">Home</a>
             <a href="#produtos">Produtos</a>
             <a href="#servicos">Serviços</a>
             <a href="#mapa">Mapa</a> 
@@ -20,7 +21,7 @@
             
         </nav>
     </header>
-    <main>
+    <main id="content">
         <section id="produtos">
             <h2>Produtos</h2>
             <p>Mussum Ipsum, cacilds vidis litro abertis. Per aumento de cachacis, eu reclamis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Suco de cevadiss deixa as pessoas mais interessantis. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.
@@ -86,7 +87,7 @@
         </section>
         <section id="contato">
             <h2>Contato</h2>
-            <form action="any-backend-script" method="GET">
+            <form action="#" method="POST">
                 <label for="nome">Nome: </label>
                 <input type="text" id="nome" name="nome"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     >
                 <label for="telefone">Telefone: </label>
@@ -98,7 +99,7 @@
                 <label for="data-nascimento">Data de Nascimento: </label>
                 <input type="date" id="data-nascimento" name="data-nascimento">
                 <label for="mensagem">Mensagem: </label>
-                <textarea id="mensagem" name="mensagem"></textarea>
+                <textarea id="mensagem" rows="6" name="mensagem"></textarea>
                 <button type="submit" id="enviar">Enviar</button>
             </form>
         </section>

@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+nav > a {
+    padding: 4px;
+    border-right: 2px solid saddlebrown;
+    color: saddlebrown;
+}
+
+nav > a:last-child {
+    border-right: 0px;
+}
+
+nav > a:nth-child(even) {
+    background-color: seashell;
+}
+
+nav > a:nth-child(odd) {
+    background-color: snow;
+}
+
+header {    
+    display: flex;
+    background-color: darkkhaki;
+    padding: 10px;
+    height: 45px;
+    color: #ffffff;
+    position: fixed;     
+    overflow: hidden;   
+    top: 0;
+}
+
+header > h1 {
+    width: 50%;    
+}
+
+header > nav {
+    width: 50%;
+    font-size: 1.5em;
+    text-align: right;
+    padding: 10px;
+}
+
+main {
+    margin-top: 80px;
+    padding: 10px;
+    color: saddlebrown;
+}
+
+section {
+    padding: 20px;
+    margin: 5%;
+    border-radius: 1em;
+}   
+
+main > section:nth-child(even) {
+    background-color: snow;
+}
+
+main > section:nth-child(odd) {
+    background-color: tan   ;
+}
+
+#contato { 
+    margin: 5%;    
+    padding: 2%;
+    background-color: lemonchiffon;
+    border-radius: 1em;
+}
+
+form > * {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 0.5em;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: saddlebrown;
+    color: seashell;
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+button:hover {
+    background-color: sienna;
+}
+
+@media only screen and (max-width: 900px) {
+    header {
+        display: inherit;
+        height: 80px;
+    }
+
+    header > h1 {
+      width: 100%;    
+      margin-bottom: 10px;      
+    }
+
+    header > nav {        
+        display: inline;
+        font-size: 18px;
+    }
+
+    main {
+        margin-top: 100px;
+    }
+
+    
+  }
