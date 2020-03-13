@@ -55,6 +55,16 @@ main {
     color: saddlebrown;
 }
 
+/* irmão adjante */
+#produtos + section {
+    font-weight: bold;
+}
+
+/* irmão geral */
+#produtos ~ section {
+    line-height: 1.4em;
+}
+
 section {
     padding: 20px;
     margin: 5%;
